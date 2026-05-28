@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(127, 255, 212, 0.519);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* id em HTML é representado por # (Hashtag) em CSS
+class em HTML é representada por . (ponto) em CSS */
+h1#principal {
+    text-align: center;
+    color: azure;
+    background-image: linear-gradient(to right, rgb(1, 28, 1), rgba(0, 128, 0, 0.385));
+    
+}
+h1 {
+    color: rgb(13, 61, 13);
+}
+h2 {
+    color: rgb(18, 23, 10);
+}
+.basico{
+  background-color: darkred;  
+  color: aliceblue;
+}
+.intermediario{
+    background-color: darkgoldenrod;
+    color: black
+}
+.avançado{
+    background-color: darkblue;
+    color: aliceblue;
+}

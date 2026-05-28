@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: red ;
+        }
+        header{
+            background-color: burlywood;
+            padding: 10px;
+            margin: 0em;
+            
+        }
+        nav{
+            background-color: blue;
+            padding: 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
+        }
+        nav > a {
+            text-decoration: none;
+            color: bisque;
+            font-weight: bolder;
+            margin-right: 30px;
+           
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: antiquewhite;
+            padding: auto;
+            margin: auto;
+            border-radius: 10px;
+            
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        article{
+            background-color: rgb(195, 183, 166);
+        }
+        aside{
+            background-color: azure;
+        }
+        div#ball {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border-radius: 50%;
+            margin: auto;
+            text-align: center;
+            color: azure;
+            font-size: 60px;
+            font-weight: bolder;
+            box-shadow:50px rgba(0, 0, 0, 0.561);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Historias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur laudantium esse, hic veniam illo, illum enim voluptate repellendus quod consectetur debitis porro commodi doloribus eos corporis, quasi excepturi repudiandae.</p>
+                <aside>
+                    <p>Artigo escrito por Yete Gambarini Ferri</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <section id="noticias">
+            <h2>Futebol, Religião e Política</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, perspiciatis praesentium cum, modi assumenda eaque consectetur veritatis dignissimos, mollitia possimus nesciunt aliquam voluptas voluptatem molestias tenetur aut maiores aperiam culpa?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, architecto possimus tempora recusandae libero repellendus animi est suscipit veritatis incidunt minima cupiditate nisi repellat debitis iste eveniet, quaerat itaque reprehenderit?</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>Danilo Zambão</span></p>
+    </footer>
+    <div id="ball">8</div>
+</body>
+</html>

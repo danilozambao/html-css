@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        #container {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 95vh;
+            background-color: purple;
+            padding: 10px;
+        }
+
+        #conteudo {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            padding: 20px;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%; 
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias repellat blanditiis cumque eos voluptas voluptate, pariatur quidem magni! Voluptas molestiae maxime alias natus mollitia eveniet eum facilis, est magni temporibus.</p>
+        </article>
+    </section>
+</body>
+</html>
